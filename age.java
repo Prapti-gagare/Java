@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class VotingEligibility 
 {
-    public static void main(String[] args) 
+    public static void main(String[] args)
     {
         Scanner scanner = new Scanner(System.in);
 
@@ -10,10 +10,9 @@ public class VotingEligibility
         int age = scanner.nextInt();
 
         if (age >= 18)
-        {
+         {
             System.out.println("You are eligible to vote.");
-        }
-         else 
+        } else 
         {
             System.out.println("You are not eligible to vote.");
         }
